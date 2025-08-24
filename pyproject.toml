@@ -1,9 +1,10 @@
 [project]
-name = "A CLI qr-code generator with logo support"
+name = "qr-code-generator"
 version = "0.1.0"
-description = "Add your description here"
+description = "A CLI qr-code generator with logo support"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "httpx>=0.28.1",
     "qrcode[pil]>=8.2",
 ]
